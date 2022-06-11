@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+/**{
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Dancing Script', cursive;
+}*/
+
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    margin-left: 20px;
+}
+
+.img-cofee{
+    width: 1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-cofee{    
+    width: 1000px; 
+    height: 450px;
+    object-fit: cover;
+}
+
+.text-header{
+    font-family: 'Berkshire Swash', cursive;
+    color: #fff;
+    background-color: #732C02;
+    font-size: 18px;
+    width: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.text-header{
+    position:absolute; 
+    top:350px; 
+    opacity:0.8;
+}
+
+.text-expresso{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.conteudo{
+    display: flex;
+    
+}
+
+.conteudo > p{
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+    font-size: 11px;
+}
+
+.text-expresso{
+    margin: 0;
+    padding: 0;
+}
+
+.text-expresso > h2 > hr{
+    border: 2px solid #591902;
+    width: 350px;
+    margin-left: 0;
+
+}
+
+.text-expresso > h2{
+    padding-bottom: 0;
+}
+
+.img-expresso{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.img-mocha{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;    
+}
+
+.table{
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th{
+    font-weight: bold;
+    background-color:#732C02;
+    font-weight: bolder;
+    color: #fff;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+} 
+
+.table td{
+    height: 50px;
+    background-color:#F29D35;
+    padding-left: 20px;
+    padding-right: 20px;
+}
